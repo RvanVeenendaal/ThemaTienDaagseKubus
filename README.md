@@ -10,5 +10,5 @@ Je ziet een interactieve Rubiks kubus die je naar de door jou gewenste informati
 Handleiding:
 Elk vlak van de kubus geeft een sub-thema weer van hoofdthema van de ThemaTienDaagse ‘e-Depot, de grenzen vervagen’.  De naam van het sub-thema staat in het negende en middelste vlakje van elk vlak aangegeven. Daaromheen staan acht gerelateerde onderwerpen. Hiervan zijn drie onderwerpen een evenement van de 10 Daagse. Er kan dus een presentatie, workshop, webinar of ander evenement achter zitten.  De overige vlakjes zijn onderwerpen die niet als evenement in de 10 Daagse zijn meegenomen, maar wel gerelateerd zijn aan dit sub-thema. Door erop te klikken ga je naar een pagina of pagina’s met meer informatie daarover. Om de kubus te draaien druk je de linkermuisknop in, beweeg de muis en laat vervolgens de muisknop weer los. 
 
-Met dank aan Corry Akkerman en Enrico Koenen, 
+Met dank aan Corry Akkerman en Enrico Koenen,<br/> 
 Remco van Veenendaal
