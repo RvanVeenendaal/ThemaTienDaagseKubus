@@ -1,96 +1,117 @@
 body {
-    background-image: url("clouds.jpg");
+	background-image: url("clouds.jpg");
+	height: 300px;
 }
 
 .groter {
-  font-size: 300%;
+	font-size: 300%;
 }
 
 table, th, td {
 	border: 1px outset;
 }
 
-table { width: 100%;height: 100%}
+table {
+	width: 100%;
+	height: 100%;
+}
 
 td {
 	width: 33%;
 	height: 33%;
 }
 
+h1, h2, h3, hr {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	background-color: white;
+	opacity: 80%;
+}
+
+p {
+	width: 50%;
+	margin: auto;
+	background-color: white;
+	opacity: 80%;
+}
+
+
 .container {
-    margin: 50px auto;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+	margin: 50px auto;
+	width: 300px;
+	height: 300px;
+	margin-top: 8vw;
+	perspective: 1000px;
 }
 
 .cube {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    user-select: none;
-    cursor: grab;
-    transition: transform 0.5s ease;
-    transform-style: preserve-3d;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	user-select: none;
+	cursor: grab;
+	transition: transform 0.5s ease;
+	transform-style: preserve-3d;
 }
 
 .cube:hover {
-    cursor: grab;
+	cursor: grab;
 }
 
 .face {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    font-weight: bold;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	font-weight: bold;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-    color: white;
+	color: white;
 
 }
 
 /* Achterkant */
 .achterkant { 
-    transform: translateZ(-150px) scaleX(-1);
-    background: red;
+	transform: translateZ(-150px) scaleX(-1);
+	background: red;
 	font-size: .66vw;
 }
 
 /* Rechterkant */
 .rechterkant {
-    transform: rotateY(90deg) translateZ(150px);
-    background: yellow;
-    color: black;
+	transform: rotateY(90deg) translateZ(150px);
+	background: yellow;
+	color: black;
 	font-size: .66vw;
 }
 
 /*  Voorkant */
 .voorkant {
-    transform: translateZ(150px);
-    background: white;
-    color: black;
+	transform: translateZ(150px);
+	background: white;
+	color: black;
 	font-size: .66vw;
 }
 
 /* Linkerkant */ 
 .linkerkant {
-    transform: rotateY(-90deg) translateZ(150px);
-    background: blue;
+	transform: rotateY(-90deg) translateZ(150px);
+	background: blue;
 	font-size: .66vw;
 }
 
 /* Bovenkant */
 .bovenkant {
-    transform: rotateX(90deg) translateZ(150px);
-    background: green;
+	transform: rotateX(90deg) translateZ(150px);
+	background: green;
 	font-size: .66vw;
 }
 
 /* Onderkant */
 .onderkant {
-    transform: rotateX(-90deg) translateZ(150px);
-    background: orange;
-    color: black;
+	transform: rotateX(-90deg) translateZ(150px);
+	background: orange;
+	color: black;
 	font-size: .66vw;
 }
