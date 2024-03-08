@@ -64,18 +64,16 @@ p {
 	width: 300px;
 	height: 300px;
 	text-align: center;
-	font-weight: bold;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: white;
-
+/*	font-size: .66vw; */
 }
 
 /* Achterkant */
 .achterkant { 
 	transform: translateZ(-150px) scaleX(-1);
 	background: red;
-	font-size: .66vw;
 }
 
 /* Rechterkant */
@@ -83,7 +81,6 @@ p {
 	transform: rotateY(90deg) translateZ(150px);
 	background: yellow;
 	color: black;
-	font-size: .66vw;
 }
 
 /*  Voorkant */
@@ -91,21 +88,18 @@ p {
 	transform: translateZ(150px);
 	background: white;
 	color: black;
-	font-size: .66vw;
 }
 
 /* Linkerkant */ 
 .linkerkant {
 	transform: rotateY(-90deg) translateZ(150px);
 	background: blue;
-	font-size: .66vw;
 }
 
 /* Bovenkant */
 .bovenkant {
 	transform: rotateX(90deg) translateZ(150px);
 	background: green;
-	font-size: .66vw;
 }
 
 /* Onderkant */
@@ -113,5 +107,4 @@ p {
 	transform: rotateX(-90deg) translateZ(150px);
 	background: orange;
 	color: black;
-	font-size: .66vw;
 }
