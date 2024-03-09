@@ -109,5 +109,4 @@ p {
 .onderkant {
 	transform: rotateX(-90deg) translateZ(150px);
 	background: orange;
-	color: black;
 }
