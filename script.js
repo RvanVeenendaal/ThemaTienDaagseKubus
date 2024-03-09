@@ -9,6 +9,20 @@ let cube = document.querySelector(".cube");
 cube.addEventListener("mousedown", onMouseDown);
 cube.addEventListener("mouseup", onMouseUp);
 cube.addEventListener("mousemove", onMouseMove);
+let links = document.querySelector(".draaiLinks");
+links.addEventListener("onclick", draai(90,0));
+let rechts = document.querySelector(".draaiLinks");
+rechts.addEventListener("onclick", draai(-90,0));
+let omhoog = document.querySelector(".draaiLinks");
+omhoog.addEventListener("onclick", draai(0,-90));
+let omlaag = document.querySelector(".draaiLinks");
+omlaag.addEventListener("onclick", draai(0,90));
+
+function draai(x, y){
+    let cube = document.querySelector(".cube");
+    cube.style.transform = rotateX(x);
+    cube.style.transform = rotateY(y);
+}
 
 function onMouseDown(event) {
     isDragging = true;
