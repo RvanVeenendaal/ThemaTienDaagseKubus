@@ -10,13 +10,29 @@ cube.addEventListener("mousedown", onMouseDown);
 cube.addEventListener("mouseup", onMouseUp);
 cube.addEventListener("mousemove", onMouseMove);
 let links = document.querySelector(".draaiLinks");
-links.addEventListener("onclick", draai(90,0));
+links.addEventListener("onclick", draaiLinks());
 let rechts = document.querySelector(".draaiRechts");
-rechts.addEventListener("onclick", draai(-90,0));
+rechts.addEventListener("onclick", draaiRechts());
 let omhoog = document.querySelector(".draaiOmhoog");
-omhoog.addEventListener("onclick", draai(0,-90));
+omhoog.addEventListener("onclick", draaiOmhoog());
 let omlaag = document.querySelector(".draaiOmlaag");
-omlaag.addEventListener("onclick", draai(0,90));
+omlaag.addEventListener("onclick", draaiOmlaag());
+
+function draaiLinks(){
+    draai(90,0);
+}
+
+function draaiRechts(){
+    draai(-90,0);
+}
+
+function draaiOmhoog(){
+    draai(0,90);
+}
+
+function draaiOmlaag(){
+    draai(0,-90);
+}
 
 function draai(x, y){
     alert("Draai " + x + "," + y);
