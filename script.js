@@ -35,7 +35,6 @@ function draaiOmlaag(){
 }
 
 function draai(x, y){
-    alert("Draai " + x + "," + y);
     currentRotationX += x;
     currentRotationY += y;
     updateCubeRotation();
