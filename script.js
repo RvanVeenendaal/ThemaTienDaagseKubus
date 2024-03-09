@@ -27,11 +27,11 @@ function draaiRechts(){
 }
 
 function draaiOmhoog(){
-    draai(-90, 0);
+    draai(90, 0);
 }
 
 function draaiOmlaag(){
-    draai(90, 0);
+    draai(-90, 0);
 }
 
 function draai(x, y){
