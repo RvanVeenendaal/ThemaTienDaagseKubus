@@ -19,6 +19,7 @@ let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("onclick", draai(0,90));
 
 function draai(x, y){
+    alert("Draai " + x + "," + y);
     currentRotationX += x;
     currentRotationY += y;
     updateCubeRotation();
