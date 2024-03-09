@@ -5,10 +5,10 @@ let currentRotationX = -20;
 let currentRotationY = -20;
 let faceWidthAndHeight = 300;
 const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth
-
-document.addEventListener("mousedown", onMouseDown);
-document.addEventListener("mouseup", onMouseUp);
-document.addEventListener("mousemove", onMouseMove);
+let cube = document.querySelector(".cube");
+cube.addEventListener("mousedown", onMouseDown);
+cube.addEventListener("mouseup", onMouseUp);
+cube.addEventListener("mousemove", onMouseMove);
 
 function onMouseDown(event) {
     isDragging = true;
