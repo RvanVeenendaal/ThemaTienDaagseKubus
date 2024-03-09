@@ -66,6 +66,7 @@ p {
 }
 
 .face {
+	padding: 0px;
 	position: absolute;
 	width: 300px;
 	height: 300px;
@@ -73,7 +74,7 @@ p {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: white;
-	font-size: .75vw;
+	font-size: .9vw;
 }
 
 /* Achterkant */
