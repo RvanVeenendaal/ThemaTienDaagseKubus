@@ -11,11 +11,11 @@ cube.addEventListener("mouseup", onMouseUp);
 cube.addEventListener("mousemove", onMouseMove);
 let links = document.querySelector(".draaiLinks");
 links.addEventListener("onclick", draai(90,0));
-let rechts = document.querySelector(".draaiLinks");
+let rechts = document.querySelector(".draaiRechts");
 rechts.addEventListener("onclick", draai(-90,0));
-let omhoog = document.querySelector(".draaiLinks");
+let omhoog = document.querySelector(".draaiOmhoog");
 omhoog.addEventListener("onclick", draai(0,-90));
-let omlaag = document.querySelector(".draaiLinks");
+let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("onclick", draai(0,90));
 
 function draai(x, y){
