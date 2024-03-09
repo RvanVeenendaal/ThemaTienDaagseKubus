@@ -19,19 +19,19 @@ let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("click", draaiOmlaag);
 
 function draaiLinks(){
-    draai(90,0);
+    draai(0, -90);
 }
 
 function draaiRechts(){
-    draai(-90,0);
+    draai(0, 90);
 }
 
 function draaiOmhoog(){
-    draai(0,90);
+    draai(-90, 0);
 }
 
 function draaiOmlaag(){
-    draai(0,-90);
+    draai(90, 0);
 }
 
 function draai(x, y){
