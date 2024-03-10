@@ -77,23 +77,9 @@ function onMouseMove(event) {
 
 function updateCubeRotation() {
     let cube = document.querySelector(".cube");
-    if(currentRotationY > 359){
-      currentRotationY -= 359;
-    }
-    else if(currentRotationY < -359){
-      currentRotationY += 359;
-    }
-    if(currentRotationX > 359){
-      currentRotationX -= 359;
-    }
-    else if(currentRotationX < -359){
-      currentRotationX += 359;
-    }
     cube.style.transform = 
     `rotateX(${currentRotationX}deg)
     rotateY(${currentRotationY}deg)`;
-    var xyinfo = document.querySelector(".xyinfo");
-    xyinfo.innerHTML = currentRotationX + ", " + currentRotationY;
 }
 
 function setInitialPerspective(){
