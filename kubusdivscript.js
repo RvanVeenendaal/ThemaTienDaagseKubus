@@ -70,6 +70,7 @@ function onMouseMove(event) {
         lastMouseX = event.clientX;
         lastMouseY = event.clientY;
         currentRotationY += deltaX * 0.5;
+        currentRotationX -= deltaY * 0.5;
         updateCubeRotation();
     }
 }
@@ -81,8 +82,7 @@ function updateCubeRotation() {
     }
     else if(currentRotationY < -359){
       currentRotationY += 359;
-    }      
-    currentRotationX -= deltaY * 0.5;
+    }
     if(currentRotationX > 359){
       currentRotationX -= 359;
     }
