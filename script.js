@@ -1,8 +1,8 @@
 let isDragging = false;
 let lastMouseX;
 let lastMouseY;
-let currentRotationX = -10 + Math.floor(Math.random() * 3) * 90;
-let currentRotationY = -10 + Math.floor(Math.random() * 3) * 90;
+let currentRotationX = -10;
+let currentRotationY = -10;
 let faceWidthAndHeight = 300;
 const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth
 let cube = document.querySelector(".cube");
@@ -83,8 +83,21 @@ function updateCubeRotation() {
 }
 
 function setInitialPerspective(){
-    let cube = document.querySelector(".cube");
-    cube.style.transform = 
-    `rotateX(${currentRotationX}deg)
-    rotateY(${currentRotationY}deg)`;
+    updateCubeRotation();
+    switch(Math.floor(Math.random() * 5)) {
+        case 1:
+            draaiLinks();
+            break;
+        case 2:
+            draaiRechts();
+            break;
+        case 3:
+            draaiOmhoog()
+            break;
+        case 4:
+            draaiOmlaag()
+            break;
+        default:
+            // do nothing
+    } 
 }
