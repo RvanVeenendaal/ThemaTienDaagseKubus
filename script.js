@@ -84,7 +84,7 @@ function updateCubeRotation() {
 
 function setInitialPerspective(){
     updateCubeRotation();
-    switch(Math.floor(Math.random() * 5)) {
+    switch(Math.floor(Math.random() * 6)) {
         case 1:
             draaiLinks();
             break;
@@ -92,10 +92,14 @@ function setInitialPerspective(){
             draaiRechts();
             break;
         case 3:
-            draaiOmhoog()
+            draaiOmhoog();
             break;
         case 4:
-            draaiOmlaag()
+            draaiOmlaag();
+            break;
+        case 5:
+            draaiLinks();
+            draaiLinks();
             break;
         default:
             // do nothing
