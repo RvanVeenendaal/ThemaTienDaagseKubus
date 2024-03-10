@@ -70,25 +70,25 @@ function onMouseMove(event) {
         lastMouseX = event.clientX;
         lastMouseY = event.clientY;
         currentRotationY += deltaX * 0.5;
-        if(currentRotationY > 359){
-          currentRotationY -= 359;
-        }
-        else if(currentRotationY < -359){
-          currentRotationY += 359;
-        }      
-        currentRotationX -= deltaY * 0.5;
-        if(currentRotationX > 359){
-          currentRotationX -= 359;
-        }
-        else if(currentRotationX < -359){
-          currentRotationX += 359;
-        }
         updateCubeRotation();
     }
 }
 
 function updateCubeRotation() {
     let cube = document.querySelector(".cube");
+    if(currentRotationY > 359){
+      currentRotationY -= 359;
+    }
+    else if(currentRotationY < -359){
+      currentRotationY += 359;
+    }      
+    currentRotationX -= deltaY * 0.5;
+    if(currentRotationX > 359){
+      currentRotationX -= 359;
+    }
+    else if(currentRotationX < -359){
+      currentRotationX += 359;
+    }
     cube.style.transform = 
     `rotateX(${currentRotationX}deg)
     rotateY(${currentRotationY}deg)`;
