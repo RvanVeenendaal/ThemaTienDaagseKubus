@@ -17,14 +17,17 @@ let omhoog = document.querySelector(".draaiOmhoog");
 omhoog.addEventListener("click", draaiOmhoog);
 let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("click", draaiOmlaag);
-let handleiding = document.getElementById("handleiding");
+let handleiding = document.querySelector(".handleiding");
 handleiding.addEventListener("click", toggleHandleiding);
 
 function toggleHandleiding() {
-  if (handleiding.style.display === "none") {
-    handleiding.style.display = "block";
+  var toggle = document.querySelector(".toggle");
+  if (toggle.style.display === "none") {
+    toggle.style.display = "block";
+    handleiding.innerHTML = "[verberg]";
   } else {
-    handleiding.style.display = "none";
+    toggle.style.display = "none";
+    handleiding.innerHTML = "[toon]";
   }
 } 
 
