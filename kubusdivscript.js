@@ -80,6 +80,8 @@ function updateCubeRotation() {
     cube.style.transform = 
     `rotateX(${currentRotationX}deg)
     rotateY(${currentRotationY}deg)`;
+    var xyinfo = document.querySelector(".xyinfo");
+    xyinfo.innerHTML = currentRotationX + ", " + currentRotationY;
 }
 
 function setInitialPerspective(){
