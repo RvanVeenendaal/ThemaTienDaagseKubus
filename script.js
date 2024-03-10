@@ -17,6 +17,16 @@ let omhoog = document.querySelector(".draaiOmhoog");
 omhoog.addEventListener("click", draaiOmhoog);
 let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("click", draaiOmlaag);
+let handleiding = document.getElementById("handleiding");
+handleiding.addEventListener("click", toggleHandleiding);
+
+function toggleHandleiding() {
+  if (handleiding.style.display === "none") {
+    handleiding.style.display = "block";
+  } else {
+    handleiding.style.display = "none";
+  }
+} 
 
 function draaiLinks(){
     draai(0, -90);
