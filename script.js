@@ -1,8 +1,8 @@
 let isDragging = false;
 let lastMouseX;
 let lastMouseY;
-let currentRotationX = -20;
-let currentRotationY = -20;
+let currentRotationX = -5;
+let currentRotationY = -5;
 let faceWidthAndHeight = 300;
 const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth
 let cube = document.querySelector(".cube");
