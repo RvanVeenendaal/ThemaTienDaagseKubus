@@ -55,7 +55,7 @@ h1, h2, h3, hr, p, .description {
 	margin: 50px auto;
 	width: 300px;
 	height: 300px;
-	margin-top: 8vw;
+	margin-top: 2vw;
 	perspective: 1000px;
 }
 
