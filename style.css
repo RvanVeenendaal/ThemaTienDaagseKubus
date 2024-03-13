@@ -26,15 +26,14 @@ td {
 }
 
 h1, h2, h3, hr {
-	text-align: center;
-	width: 67%;
+	width: 40%;
 	margin: auto;
 	background-color: white;
 	opacity: 80%;
 }
 
 p {
-	width: 67%;
+	width: 40%;
 	margin: auto;
 	background-color: white;
 	opacity: 80%;
