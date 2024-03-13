@@ -19,9 +19,22 @@ let omlaag = document.querySelector(".draaiOmlaag");
 omlaag.addEventListener("click", draaiOmlaag);
 let handleiding = document.querySelector(".handleiding");
 handleiding.addEventListener("click", toggleHandleiding);
+let uitleg = document.querySelector(".uitleg");
+uitleg.addEventListener("click", toggleUitleg);
+
+function toggleUitleg() {
+  var toggle = document.querySelector(".toggleU");
+  if (toggle.style.display === "none") {
+    toggle.style.display = "block";
+    handleiding.innerHTML = "[verberg]";
+  } else {
+    toggle.style.display = "none";
+    handleiding.innerHTML = "[toon]";
+  }
+} 
 
 function toggleHandleiding() {
-  var toggle = document.querySelector(".toggle");
+  var toggle = document.querySelector(".toggleH");
   if (toggle.style.display === "none") {
     toggle.style.display = "block";
     handleiding.innerHTML = "[verberg]";
