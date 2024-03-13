@@ -26,10 +26,10 @@ function toggleUitleg() {
   var toggle = document.querySelector(".toggleU");
   if (toggle.style.display === "none") {
     toggle.style.display = "block";
-    handleiding.innerHTML = "[verberg]";
+    uitleg.innerHTML = "[verberg]";
   } else {
     toggle.style.display = "none";
-    handleiding.innerHTML = "[toon]";
+    uitleg.innerHTML = "[toon]";
   }
 } 
 
