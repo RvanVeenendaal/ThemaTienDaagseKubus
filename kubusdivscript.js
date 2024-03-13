@@ -5,10 +5,10 @@ let currentRotationX = -10;
 let currentRotationY = -10;
 let faceWidthAndHeight = 300;
 const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth
-let cube = document.querySelector(".cube");
-cube.addEventListener("mousedown", onMouseDown);
-cube.addEventListener("mouseup", onMouseUp);
-cube.addEventListener("mousemove", onMouseMove);
+let container = document.querySelector(".container");
+container.addEventListener("mousedown", onMouseDown);
+container.addEventListener("mouseup", onMouseUp);
+container.addEventListener("mousemove", onMouseMove);
 let links = document.querySelector(".draaiLinks");
 links.addEventListener("click", draaiLinks);
 let rechts = document.querySelector(".draaiRechts");
