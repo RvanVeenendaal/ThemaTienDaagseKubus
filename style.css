@@ -25,6 +25,10 @@ td {
 	height: 33%;
 }
 
+.buttons{
+	margin-bottom: 24px;
+}
+
 .description {
 	width: 30%;
 	background-color: white;
