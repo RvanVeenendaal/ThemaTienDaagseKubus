@@ -25,16 +25,8 @@ td {
 	height: 33%;
 }
 
-h1, h2, h3, hr {
+h1, h2, h3, hr, p {
 	width: 40%;
-	margin: auto;
-	background-color: white;
-	opacity: 80%;
-}
-
-p {
-	width: 40%;
-	margin: auto;
 	background-color: white;
 	opacity: 80%;
 }
