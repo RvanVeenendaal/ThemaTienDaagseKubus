@@ -80,7 +80,6 @@ td {
 	cursor: grab;
 	transition: transform 0.5s ease;
 	transform-style: preserve-3d;
-	transform: translate(-150px, -150px);
 }
 
 .cube:hover {
