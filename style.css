@@ -65,10 +65,8 @@ td {
 }
 
 .container {
+	float: right;
 	margin: 50px auto;
-	width: 600px;
-	height: 600px;
-	margin-top: 8vw;
 	perspective: 1000px;
 }
 
