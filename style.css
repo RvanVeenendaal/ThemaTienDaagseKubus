@@ -80,6 +80,7 @@ td {
 	cursor: grab;
 	transition: transform 0.5s ease;
 	transform-style: preserve-3d;
+	display: inline-block;
 	-webkit-transform: translate(-150px, -150px);
    	-moz-transform: translate(-150px, -150px);
    	-o-transform: translate(-150px, -150px);
