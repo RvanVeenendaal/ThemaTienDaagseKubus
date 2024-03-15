@@ -63,11 +63,15 @@ td {
 	float: left;
 }
 
-.container {
-	margin-top: 50px;
-	perspective: 1000px;
+.main {
 	width: 70%;
 	float: left;
+}
+
+.container {
+	margin: auto;
+	margin-top: 50px;
+	perspective: 1000px;
 }
 
 .cube {
