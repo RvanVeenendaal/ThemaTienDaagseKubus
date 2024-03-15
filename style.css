@@ -7,6 +7,9 @@ body {
 	font-size: 12px;
 }
 
+.yellow{
+	color: yellow;
+}
 .groter {
 	font-size: 200%;
 }
