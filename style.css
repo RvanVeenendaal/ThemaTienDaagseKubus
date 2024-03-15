@@ -64,16 +64,15 @@ td {
 }
 
 .container {
-	width: 70%;
 	margin-top: 50px;
 	perspective: 1000px;
-	float: right;
+	float: left;
 }
 
 .cube {
 	position: relative;
 	top: 50px;
-	left: 50px;
+	left: 50%;
 	width: 300px;
 	height: 300px;
 	user-select: none;
