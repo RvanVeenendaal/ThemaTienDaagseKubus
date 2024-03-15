@@ -1,5 +1,5 @@
 # ThemaTienDaagseKubus
-Interactieve Kubus als index voor ThemaTienDaagse
+Interactieve Kubus als index voor de ThemaTienDaagse
 
 Bezoek de kubus: https://rvanveenendaal.github.io/ThemaTienDaagseKubus/.
 
