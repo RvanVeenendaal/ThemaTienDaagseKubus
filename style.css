@@ -58,7 +58,9 @@ td {
 .description {
 	width: 30%;
 	float: left;
-	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
+	background-color: white;
+	background-image: url("stempel-thematiendaagse-zwart_transparante_achtergrond.png");
+	opacity: 80%;
 }
 
 .container {
