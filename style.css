@@ -63,6 +63,7 @@ td {
 
 .cube {
 	position: relative;
+	margin: 150px;
 	width: 300px;
 	height: 300px;
 	user-select: none;
