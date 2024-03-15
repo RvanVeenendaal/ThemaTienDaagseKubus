@@ -25,12 +25,6 @@ td {
 	height: 33%;
 }
 
-.description {
-	width: 30%;
-	background-color: white;
-	opacity: 80%;
-}
-
 .handleiding{
 	cursor: pointer;
 }
@@ -48,8 +42,11 @@ td {
 }
 
 .description {
+	width: 30%;
+	background-color: white;
+	opacity: 80%;
 	float: left;
-	margin-top: 48px;
+	margin-top: 50px;
 	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
 }
 
