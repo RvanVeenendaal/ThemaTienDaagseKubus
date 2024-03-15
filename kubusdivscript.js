@@ -9,6 +9,7 @@ let container = document.querySelector(".container");
 container.addEventListener("mousedown", onMouseDown);
 container.addEventListener("mouseup", onMouseUp);
 container.addEventListener("mousemove", onMouseMove);
+container.addEventListener("mouseout", onMouseOut);
 let links = document.querySelector(".draaiLinks");
 links.addEventListener("click", draaiLinks);
 let rechts = document.querySelector(".draaiRechts");
@@ -86,6 +87,10 @@ function onMouseMove(event) {
         currentRotationX -= deltaY * 0.5;
         updateCubeRotation();
     }
+}
+
+function onMouseOut(event){
+  isDragging = false;
 }
 
 function updateCubeRotation() {
