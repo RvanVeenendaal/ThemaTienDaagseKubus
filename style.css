@@ -64,7 +64,6 @@ td {
 }
 
 .container {
-	float: right;
 	margin-top: 50px;
 	perspective: 1000px;
 }
