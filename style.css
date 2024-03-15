@@ -39,7 +39,7 @@ td {
 	height: 33%;
 }
 
-.handleiding, .uitleg {
+.handleiding, .uitleg, button {
 	cursor: pointer;
 }
 
