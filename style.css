@@ -39,7 +39,7 @@ td {
 	height: 33%;
 }
 
-.handleiding{
+.handleiding, .uitleg {
 	cursor: pointer;
 }
 
@@ -66,13 +66,11 @@ td {
 
 .container {
 	float: right;
-	margin: 50px auto;
 	perspective: 1000px;
 }
 
 .cube {
 	position: relative;
-	margin: 150px;
 	width: 300px;
 	height: 300px;
 	user-select: none;
