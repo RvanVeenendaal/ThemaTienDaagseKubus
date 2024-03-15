@@ -3,11 +3,11 @@ Interactieve Kubus als index voor ThemaTienDaagse
 
 Bezoek de kubus: https://rvanveenendaal.github.io/ThemaTienDaagseKubus/.
 
-Je ziet een interactieve Rubiks kubus die je naar de door jou gewenste informatie leidt. De kubus is een handzame index voor de ThemaTienDaagse ‘e-Depot, de grenzen vervagen’ van 2024. Draai de kubus naar het onderwerp van jouw keuze en klik op het onderwerp waarover je meer wilt weten. 
+Uitleg:
+Deze interactieve kubus is een handzame index voor de ThemaTienDaagse ‘e-Depot, de grenzen vervagen’ van 2024. Draai de kubus naar het subthema van jouw keuze en klik op het onderwerp waarover je meer wilt weten.
 
 Handleiding:
-Elk vlak van de kubus geeft een sub-thema weer van hoofdthema van de ThemaTienDaagse ‘e-Depot, de grenzen vervagen’.  De naam van het sub-thema staat in het negende en middelste vlakje van elk vlak aangegeven. Daaromheen staan acht gerelateerde onderwerpen. Hiervan zijn drie onderwerpen een evenement van de 10 Daagse. Er kan dus een presentatie, workshop, webinar of ander evenement achter zitten.  De overige vlakjes zijn onderwerpen die niet als evenement in de 10 Daagse zijn meegenomen, maar wel gerelateerd zijn aan dit sub-thema. Door erop te klikken ga je naar een pagina of pagina’s met meer informatie daarover. Om de kubus te draaien druk je de linkermuisknop in, beweeg de muis en laat vervolgens de muisknop weer los. 
-
+Op elke kant van de kubus staat in het middelste vlak een subthema. Daaromheen staan bijpassende ThemaTienDaagse-evenementen en ter inspiratie enkele gerelateerde onderwerpen. Als je een link aanwijst krijg je meer informatie. Klik erop om de link te volgen. Om de kubus te draaien: klik op de draaiknoppen of beweeg de muisaanwijzer naar de kubus, druk de linkermuisknop in, beweeg de muis en laat de muisknop weer los.
 De broncode voor de kubus is gebaseerd op https://github.com/FarcasTudor/3D-Cube. De bron van de afbeelding 'clouds.jpg' is https://1-background.com/white_clouds_blue_sky_clouds_backgrounds.htm.
 
 Met dank aan Corry Akkerman en Enrico Koenen,<br/> 
