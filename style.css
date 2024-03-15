@@ -50,6 +50,7 @@ td {
 .description {
 	float: left;
 	margin-top: 48px;
+	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
 }
 
 .container {
@@ -75,7 +76,6 @@ td {
 }
 
 .face {
-	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
 	padding: 0px;
 	position: absolute;
 	width: 300px;
