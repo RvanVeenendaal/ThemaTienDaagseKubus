@@ -1,8 +1,8 @@
 let isDragging = false;
 let lastMouseX;
 let lastMouseY;
-let currentRotationX = -10;
-let currentRotationY = -10;
+let currentRotationX = -15;
+let currentRotationY = -15;
 let container = document.querySelector(".container");
 container.addEventListener("mousedown", onMouseDown);
 container.addEventListener("mouseup", onMouseUp);
