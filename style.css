@@ -39,6 +39,10 @@ td {
 	height: 33%;
 }
 
+button {
+	background-color: yellow;
+}
+
 .handleiding, .uitleg, button {
 	cursor: pointer;
 }
