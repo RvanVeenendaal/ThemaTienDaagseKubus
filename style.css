@@ -65,6 +65,8 @@ button {
 	width: 30%;
 	background-color: rgb(232,232,232);
 	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	opacity: 80%;
 	float: left;
 }
