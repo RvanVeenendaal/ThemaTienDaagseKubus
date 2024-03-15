@@ -58,7 +58,7 @@ td {
 .description {
 	width: 30%;
 	float: left;
-	background-color: lightgrey;
+	background-color: WhiteSmoke;
 	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
 	opacity: 80%;
 }
