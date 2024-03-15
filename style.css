@@ -64,6 +64,7 @@ td {
 }
 
 .container {
+	width: 70%;
 	margin-top: 50px;
 	perspective: 1000px;
 }
