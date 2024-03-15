@@ -7,6 +7,16 @@ body {
 	font-size: 12px;
 }
 
+.totMidden {
+	width: 50%;
+	text-align: right;
+}
+
+.vanMidden {
+	width: 50%;
+	text-align: left;
+}
+
 .yellow{
 	color: yellow;
 }
