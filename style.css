@@ -41,6 +41,8 @@ td {
 
 button {
 	background-color: yellow;
+	margin: 8px;
+	width: 80px;
 }
 
 .handleiding, .uitleg, button {
