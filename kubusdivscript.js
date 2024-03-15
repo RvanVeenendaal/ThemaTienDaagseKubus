@@ -3,8 +3,6 @@ let lastMouseX;
 let lastMouseY;
 let currentRotationX = -10;
 let currentRotationY = -10;
-let faceWidthAndHeight = 300;
-const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth
 let container = document.querySelector(".container");
 container.addEventListener("mousedown", onMouseDown);
 container.addEventListener("mouseup", onMouseUp);
