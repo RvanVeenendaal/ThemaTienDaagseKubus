@@ -7,7 +7,7 @@ let container = document.querySelector(".container");
 container.addEventListener("mousedown", onMouseDown);
 container.addEventListener("mouseup", onMouseUp);
 container.addEventListener("mousemove", onMouseMove);
-container.addEventListener("mouseout", onMouseOut);
+container.addEventListener("mouseout", onMouseLeave);
 let links = document.querySelector(".draaiLinks");
 links.addEventListener("click", draaiLinks);
 let rechts = document.querySelector(".draaiRechts");
@@ -87,7 +87,7 @@ function onMouseMove(event) {
     }
 }
 
-function onMouseOut(event){
+function onMouseLeave(event){
   isDragging = false;
 }
 
