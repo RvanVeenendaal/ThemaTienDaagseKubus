@@ -3,6 +3,8 @@ Interactieve Kubus als index voor de ThemaTienDaagse
 
 Bezoek de kubus: https://rvanveenendaal.github.io/ThemaTienDaagseKubus/.
 
+Bezoek de overzichtspagina van de ThemaTienDaagse: https://kia.pleio.nl/page/view/114fe109-f358-44bb-a87d-549f222544d7/thematiendaagse-e-depot.
+
 Uitleg:
 Deze interactieve kubus is een handzame index voor de ThemaTienDaagse ‘e-Depot, de grenzen vervagen’ van 2024. Draai de kubus naar het subthema van jouw keuze en klik op het onderwerp waarover je meer wilt weten.
 
