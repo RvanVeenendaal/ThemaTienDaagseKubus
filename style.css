@@ -60,12 +60,14 @@ td {
 	background-color: rgb(232,232,232);
 	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
 	opacity: 80%;
+	float: left;
 }
 
 .container {
 	width: 70%;
 	margin-top: 50px;
 	perspective: 1000px;
+	float: right;
 }
 
 .cube {
