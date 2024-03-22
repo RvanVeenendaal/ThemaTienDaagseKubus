@@ -1,28 +1,7 @@
 body {
-	font-family: Verdana, sans-serif;
-	background-image: url("WolkendekKubus.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: 100% 100%;
-	font-size: 12px;
-}
-
-.totMidden {
-	width: 50%;
-	text-align: right;
-}
-
-.vanMidden {
-	width: 50%;
-	margin: 0 0 0 50%;
-	text-align: left;
-}
-
-.yellow{
-	color: yellow;
-}
-.groter {
-	font-size: 200%;
+	font-family: "PT Sans";
+	font-size: 18px;
+	background-color: rgb(245, 245, 245);
 }
 
 table, th, td {
@@ -40,17 +19,10 @@ td {
 }
 
 button {
-	background-color: yellow;
-	margin: 8px;
+	background-color: lightgrey;
+	margin: 4px;
 	width: 80px;
-}
-
-.handleiding, .uitleg, button {
-	cursor: pointer;
-}
-
-.toggle {
-	display: block;
+	height: 32px;
 }
 
 .wittelink {
@@ -61,29 +33,28 @@ button {
 	color: black;
 }
 
-.description {
-	width: 30%;
-	background-color: rgb(232,232,232);
-	background-image: url("stempel-thematiendaagse-wit_transparante_achtergrond.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	opacity: 80%;
-	float: left;
+.groter {
+	font-size: 200%;
 }
 
 .container {
+	background-image: url("wolken.png");
+	background-repeat: no-repeat;
+	background-size: , 100%;
 	margin: auto;
 	margin-top: 50px;
-	height: 500px;
-	width: 70%;
-	float: left;
+	height: 600px;
+	width: 600px;
 	perspective: 1000px;
+	background-color: white;
+	border: 1px solid;
+	border-radius: 5px;
 }
 
 .cube {
 	position: relative;
-	top: 50px;
-	left: 30%;
+	top: 100px;
+	left: 150px;
 	width: 300px;
 	height: 300px;
 	user-select: none;
@@ -105,7 +76,7 @@ button {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: white;
-	font-size: 11px;
+	font-size: 14px;
 }
 
 /* Achterkant */
